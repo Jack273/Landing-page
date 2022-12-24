@@ -82,13 +82,20 @@ img {
     align-items: center;
 }
 
+/* Section 3 start */
+
 .c3 {
     display:flex;
     flex-direction: column;
     gap:28px;
-    padding: 32px 450px;
+    padding: 32px 450px;   
     justify-content: center;
     align-items: center;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: lightblue;
+    
 }
 
 .quote {
@@ -100,3 +107,38 @@ img {
     font-style: italic;
     align-self: flex-end;
 }
+
+/* Section 4 start */
+
+.c4 {
+    display:flex;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 32px;
+    margin: 50px 300px;
+    gap:60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.c4content {
+    display:flex;
+    flex-direction: column;
+}
+
+.signup {
+    width: 100px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 30px;
+}
+
+
